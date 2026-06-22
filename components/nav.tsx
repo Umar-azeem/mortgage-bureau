@@ -73,8 +73,8 @@ export default function Navbar() {
             {navLinks.map((link) => (
               <NavigationMenuItem key={link.href}>
                 <Link href={link.href} legacyBehavior passHref>
-                  <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white/80 transition-all hover:text-white hover:bg-white/10 focus:bg-white/10 focus:text-white">
-                    {link.label}
+                  <NavigationMenuLink className="group inline-flex h-10 w-max mx-2 items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-white/80 transition-all hover:text-white hover:bg-white/10 focus:bg-white/10 focus:text-white">
+                   {link.label}
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
