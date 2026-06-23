@@ -35,7 +35,6 @@ export default function Home() {
       <GetIntoch/>
       <Email />
       <Empty />
-      <Footer />
     </main>
   );
 }

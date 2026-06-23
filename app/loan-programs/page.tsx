@@ -21,7 +21,7 @@ export const metadata = {
 
 const loanPrograms = [
   {
-    id: "conventional",
+    id: "/about-us",
     title: "Conventional Loans",
     description:
       "Traditional mortgages for homebuyers with good to excellent credit and stable income.",
@@ -37,7 +37,7 @@ const loanPrograms = [
     icon: Home,
   },
   {
-    id: "fha",
+    id: "about-us",
     title: "FHA Loans",
     description:
       "Government-backed loans designed for first-time homebuyers and those with lower credit scores.",
@@ -53,7 +53,7 @@ const loanPrograms = [
     icon: Shield,
   },
   {
-    id: "va",
+    id: "about-us",
     title: "VA Loans",
     description:
       "Exclusive benefits for military veterans and active-duty service members.",
@@ -69,7 +69,7 @@ const loanPrograms = [
     icon: Users,
   },
   {
-    id: "usda",
+    id: "about-us",
     title: "USDA Loans",
     description:
       "Mortgages for rural homebuyers who meet income and property location requirements.",
@@ -85,7 +85,7 @@ const loanPrograms = [
     icon: Building,
   },
   {
-    id: "jumbo",
+    id: "about-us",
     title: "Jumbo Loans",
     description:
       "Financing options for luxury properties exceeding conventional loan limits.",
@@ -101,7 +101,7 @@ const loanPrograms = [
     icon: DollarSign,
   },
   {
-    id: "investment",
+    id: "about-us",
     title: "Investment Property Loans",
     description:
       "Financing solutions for second homes, rental properties, and investment real estate.",
@@ -240,7 +240,7 @@ export default function LoanPrograms() {
                     </div>
 
                     <Link
-                      href={`/loan-programs/${program.id}`}
+                      href={`about-us`}
                       className="inline-flex items-center gap-2 text-[#1bb5a7] font-semibold hover:gap-3 transition-all text-sm"
                     >
                       Learn More

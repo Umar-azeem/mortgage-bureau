@@ -260,7 +260,7 @@ function TopSection() {
               </button>
 
               <button className="w-full border-2 border-white/60 hover:bg-white/10 text-white font-semibold tracking-wide uppercase py-3.5 text-sm rounded-lg transition-all duration-300 active:scale-95">
-                <Link href="/about">LEARN MORE</Link>
+                <Link href="/about-us">LEARN MORE</Link>
               </button>
             </div>
           </div>
